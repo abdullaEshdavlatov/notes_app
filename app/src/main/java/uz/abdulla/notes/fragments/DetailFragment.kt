@@ -82,6 +82,7 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
                     findNavController().navigate(R.id.action_detailFragment_to_mainFragment)
                 }
                 dialog.show()
+                // Comment
             }
 
         }
