@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/color"
+        android:title="@string/colors"
+        android:icon="@drawable/ic_baseline_color_lens_24">
+        <menu>
+            <item
+                android:id="@+id/blue"
+                android:title="@string/color_blue"
+                android:icon="@drawable/color_blue"/>
+            <item
+                android:id="@+id/light_blue"
+                android:title="@string/color_light_blue"
+                android:icon="@drawable/color_light_blue"/>
+            <item
+                android:id="@+id/light_green"
+                android:title="@string/color_light_green"
+                android:icon="@drawable/color_light_green"/>
+            <item
+                android:id="@+id/orange"
+                android:title="@string/color_orange"
+                android:icon="@drawable/color_orange"/>
+            <item
+                android:id="@+id/orange_and_red"
+                android:title="@string/color_light_red"
+                android:icon="@drawable/color_orange_and_red"/>
+            <item
+                android:id="@+id/pink_and_red"
+                android:title="@string/color_dark_pink"
+                android:icon="@drawable/color_pink_and_red"/>
+            <item
+                android:id="@+id/violet"
+                android:title="@string/color_violet"
+                android:icon="@drawable/color_violet"/>
+            <item
+                android:id="@+id/yellow"
+                android:title="@string/color_yellow"
+                android:icon="@drawable/color_yellow"/>
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/delete"
+        android:title="@string/delete"
+        android:icon="@drawable/ic_delete_full"/>
+
+</menu>

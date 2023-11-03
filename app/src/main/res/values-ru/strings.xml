@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="app_info">My Notes - My Notes представляет собой простой блокнот. Он обеспечивает простой и простой способ использования блокнота для написания заметок, напоминаний, электронных писем, сообщений, списков дел и покупок. Делать заметки в My Notes проще, чем в других блокнотах.</string>
+    <string name="all_notes">Все заметки</string>
+    <string name="edit_title_hint">Заголовок</string>
+    <string name="edit_search_hint">Поиск</string>
+    <string name="version">версия</string>
+    <string name="delete_info">Удалить одну заметку?</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="title_date">Дата</string>
+    <string name="edit_date_hint">Введите дату</string>
+    <string name="title_time">Время</string>
+    <string name="edit_time_hint">Введите время</string>
+    <string name="btn_save_name">Сохранять</string>
+    <string name="settings">Настройки</string>
+    <string name="app_info_title">О программе</string>
+    <string name="exit">Выход</string>
+    <string name="choose_language">Выберите язык</string>
+
+    <string name="colors">Цвета</string>
+    <string name="color_blue">Синий</string>
+    <string name="color_light_blue">Светло синий</string>
+    <string name="color_light_green">Светло зеленый</string>
+    <string name="color_light_red">Светло красный</string>
+    <string name="color_dark_pink">Темно розовый</string>
+    <string name="color_orange">Апельсин</string>
+    <string name="color_violet">Фиолетовый</string>
+    <string name="color_yellow">Желтый</string>
+</resources>

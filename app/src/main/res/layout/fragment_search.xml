@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SearchFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="12dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ic_back"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_alignTop="@id/edit_text_search"
+            android:layout_alignBottom="@+id/edit_text_search"
+            android:src="@drawable/ic_back" />
+
+        <EditText
+            android:id="@+id/edit_text_search"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_search_hint"
+            android:textStyle="normal"
+            android:ellipsize="end"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:layout_marginStart="14dp"
+            android:fontFamily="@font/cabin_semibold"
+            android:textColor="@color/black"
+            android:textColorHint="#6A6A6A"
+            android:backgroundTint="#FAFAFA"
+            android:lines="1"
+            android:layout_toEndOf="@id/ic_back"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/edit_text_cleaner"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible"
+            android:layout_alignBottom="@+id/edit_text_search"
+            android:layout_alignTop="@id/edit_text_search"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_close"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B1B0B0"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="2dp"
+        android:background="@color/background_color"/>
+    />
+
+
+
+</LinearLayout>

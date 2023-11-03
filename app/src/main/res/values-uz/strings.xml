@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="app_info">My Notes - My Notes oddiy bloknot. Bu eslatmalar, eslatmalar, elektron pochta xabarlari, xabarlar, ishlar ro\'yxati va xaridlar yozishda bloknotdan foydalanishning oson va sodda usulini taqdim etadi. My Notes bilan eslatma yozish boshqa bloknotlarga qaraganda osonroq.</string>
+    <string name="all_notes">Barcha eslatmalar</string>
+    <string name="edit_title_hint">Sarlavha</string>
+    <string name="edit_search_hint">Qidirish</string>
+    <string name="version">versiyasi</string>
+    <string name="delete_info">Bitta eslatma o\'chirilsinmi?</string>
+    <string name="delete">O\'chirish</string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="title_date">Sana</string>
+    <string name="edit_date_hint">Sanani kiriting</string>
+    <string name="title_time">Vaqt</string>
+    <string name="edit_time_hint">Vaqtni kiriting</string>
+    <string name="btn_save_name">Saqlash</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="app_info_title">Dastur haqida</string>
+    <string name="exit">Chiqish</string>
+    <string name="choose_language">Tilni tanlang</string>
+
+    <string name="colors">Ranglar</string>
+    <string name="color_blue">Ko\'k</string>
+    <string name="color_light_blue">Och ko\'k</string>
+    <string name="color_light_green">Och yashil</string>
+    <string name="color_light_red">Och qizil</string>
+    <string name="color_dark_pink">To\'q pushti</string>
+    <string name="color_orange">To\'q sariq</string>
+    <string name="color_violet">Binafsha</string>
+    <string name="color_yellow">Sariq</string>
+</resources>
